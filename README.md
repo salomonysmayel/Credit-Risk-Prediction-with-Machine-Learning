@@ -4,6 +4,7 @@
 #### Resampling
 
 
+
 > Which model had the best balanced accuracy score?
 
   The naive random oversampler model got the best accuracy score with a value of 0.7163
@@ -17,7 +18,9 @@
   The naive random oversampler model got the best geometric mean score with a value of 0.72
   
   
+  
 #### Ensemble Learning 
+
 
 
 > Which model had the best balanced accuracy score?
