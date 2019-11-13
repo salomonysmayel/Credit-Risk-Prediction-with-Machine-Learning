@@ -33,5 +33,7 @@
  The top three features were (with their respective coefficient values)
 
 total_rec_prncp - 0.09175752102205247
+
 total_pymnt_inv - 0.06410003199501778
+
 total_pymnt - 0.05764917485461809
