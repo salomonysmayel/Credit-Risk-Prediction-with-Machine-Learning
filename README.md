@@ -37,17 +37,20 @@ For this section two ensemble classifiers were trained and compared to predict l
 
 Following these steps for both models:
 
-*Training the model using the quarterly data from LendingClub.
-*Calculating the balanced accuracy score from sklearn.metrics.
-*Printing the confusion matrix from sklearn.metrics.
-*Generating a classification report using the imbalanced_classification_report from imbalanced learn.
-*For the balanced random forest classifier only,  the feature importance was printed in sorted descending order (most important feature to least important) along with the feature score.
+* Training the model using the quarterly data from LendingClub.
+* Calculating the balanced accuracy score from sklearn.metrics.
+* Printing the confusion matrix from sklearn.metrics.
+* Generating a classification report using the imbalanced_classification_report from imbalanced learn.
+* For the balanced random forest classifier only,  the feature importance was printed in sorted descending order (most important feature to least important) along with the feature score.
 
 the techniques above were used to answer the following:
 
 1) Which model had the best balanced accuracy score?
+
 2)Which model had the best recall score?
+
 3)Which model had the best geometric mean score?
+
 4)What are the top three features?
 
 ## Results
