@@ -1,57 +1,54 @@
-# Machine Learning Homework
-Prueba 
-## Background
+# Credit Risk Predictions 
 
-Auto loans, mortgages, student loans, debt consolidation ... these are just a few examples of credit and loans that people are seeking online. Peer-to-peer lending services such as LendingClub or Prosper allow investors to loan other people money without the use of a bank. However, investors always want to mitigate risk, so you have been asked by a client to help them use machine learning techniques to predict credit risk.
+## Summary 
 
-In this assignment, you will build and evaluate several machine-learning models to predict credit risk using free data from LendingClub. Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans), so you will need to employ different techniques for training and evaluating models with imbalanced classes. You will use the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the two following techniques:
+Auto loans, mortgages, student loans, debt consolidation. These are just a few examples of credit and loans that people are seeking online. Peer-to-peer lending services such as LendingClub or Prosper allow investors to loan other people money without the use of a bank. However, investors always want to mitigate risk. In the following project different machine learning techniques are used to predict credit risk.
 
-Resampling
+Several machine-learning models were build and evaluated to predict credit risk using free data from LendingClub. Credit risk is an imbalanced classification problem because the number of good loans is much larger than the number of at-risk loans, so different techniques should be employed for training and evaluating models with imbalanced classes. 
 
-Ensemble Learning
-
-## Instructions
+The imbalanced-learn and Scikit-learn libraries were used to build and evaluate models using the techniques Resampling and Ensemble Learning:
 
 ### Resampling
 
-You will use the imbalanced learn library to resample the LendingClub data and build and evaluate logistic regression classifiers using the resampled data.
-
-You will:
+The imbalanced learn library was used to resample a LendingClub data to then build and evaluate logistic regression classifiers using the resampled data in the following ways.
 
 Oversample the data using the Naive Random Oversampler and SMOTE algorithms.
+
 Undersample the data using the Cluster Centroids algorithm.
+
 Over- and under-sample using a combination SMOTEENN algorithm.
 
-For each of the above, you will need to:
+For each of the above, there following steps were followed:
 
-Train a logistic regression classifier from sklearn.linear_model using the resampled data.
+Logistic regression classifier training from sklearn.linear_model using the resampled data.
 Calculate the balanced accuracy score from sklearn.metrics.
 Calculate the confusion matrix from sklearn.metrics.
 Print the imbalanced classification report from imblearn.metrics.
 
-Use the above to answer the following:
+To answer the following:
 
-Which model had the best balanced accuracy score?
-Which model had the best recall score?
-Which model had the best geometric mean score?
+* Which model had the best balanced accuracy score?
+* Which model had the best recall score?
+* Which model had the best geometric mean score?
 
 ### Ensemble Learning
 
-In this section, you will train and compare two different ensemble classifiers to predict loan risk and evaluate each model. You will use the balanced random forest classifier and the easy ensemble AdaBoost classifier.
-Be sure to complete the following steps for each model:
+For this section two ensemble classifiers were trained and compared to predict loan risk and evaluate each model, using the balanced random forest classifier and the easy ensemble AdaBoost classifier.
 
-Train the model using the quarterly data from LendingClub provided in the Resource folder.
-Calculate the balanced accuracy score from sklearn.metrics.
-Print the confusion matrix from sklearn.metrics.
-Generate a classification report using the imbalanced_classification_report from imbalanced learn.
-For the balanced random forest classifier only, print the feature importance sorted in descending order (most important feature to least important) along with the feature score.
+Following these steps for both models:
 
-Use the above to answer the following:
+*Training the model using the quarterly data from LendingClub.
+*Calculating the balanced accuracy score from sklearn.metrics.
+*Printing the confusion matrix from sklearn.metrics.
+*Generating a classification report using the imbalanced_classification_report from imbalanced learn.
+*For the balanced random forest classifier only,  the feature importance was printed in sorted descending order (most important feature to least important) along with the feature score.
 
-Which model had the best balanced accuracy score?
-Which model had the best recall score?
-Which model had the best geometric mean score?
-What are the top three features?
+the techniques above were used to answer the following:
+
+1) Which model had the best balanced accuracy score?
+2)Which model had the best recall score?
+3)Which model had the best geometric mean score?
+4)What are the top three features?
 
 ## Results
 
